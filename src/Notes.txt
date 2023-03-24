@@ -27,3 +27,8 @@ PCM stands for source Code Management
 under build triggers-->click on Poll PCM
 * * * * are called cron jobs
 
+Goals and options
+clean test -Dtest=SmokeRunner
+
+
+
