@@ -30,5 +30,23 @@ under build triggers-->click on Poll PCM
 Goals and options
 clean test -Dtest=SmokeRunner
 
+-->how Jenkins send email
+configure other email in the server behind the scenes
+click on configure until e-mail notification under Build settings
+
+-->choice parameter
+configure-->click on this project is parameterized-->click on add Parameter-->choice parameter
+clean test -Dtest=$Runner on Goals and options
+
+-->pipeline +new View-->select build pipline view-->create-->enter any description
+-->select initial job(dev job)
+change number of builds
+refresh frequency
+search for project-->add post build action-->build other projects
+
+
+
+-->
+
 
 
